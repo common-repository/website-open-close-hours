@@ -1,0 +1,117 @@
+input[type=text] 
+{
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+.btn-open-close 
+{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#RefererValue
+{
+	width: 100%;
+	min-width: 300px;
+}
+form#ajx_opncloseform .wp_page {
+    width: 100%;
+    display: block;
+}
+form#ajx_opncloseform select {
+	max-width: 100%;
+	height: auto;
+	padding: 12px 20px 12px 15px;
+	width: 100%;
+}
+ul#redirection_options{
+	display: inline-block;
+	margin: 10px 0;
+}
+ul#redirection_options li {
+	display: inline-block;
+	padding: 10px 20px;
+	background: #0073aa;
+	margin-right: 15px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: capitalize;
+	cursor: pointer;
+	margin-bottom: 0;
+	vertical-align: sub;
+}
+form#ajx_opncloseform .redirect_option_Section{
+	display: none;
+}
+form#ajx_opncloseform .redirect_option_Section.active_section{
+	display: inline-block;
+}
+ul#redirection_options li.active{
+	background: #fff;
+	color: #0073aa;
+	border: 1px solid #0073aa;
+}
+form#ajx_opncloseform {
+    margin-top: 30px;
+}
+div#wp_page select {
+    width: 300px;
+}
+form#ajx_opncloseform tr.date_format td {
+    padding: 20px 0;
+}
+form#ajx_opncloseform tr.time_format td {
+    padding: 20px 0;
+}
+form#ajx_opncloseform tr.time_format td label,form#ajx_opncloseform tr.date_format td label{
+	display: block;
+}
+.btn-open-close{
+	cursor: pointer;
+}
+#updated h2 {
+	text-align: center;
+	font-size: 17px;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	color: rgb(0,167,0);
+	font-weight: 500;
+	display: inline-block;
+}
+.website_error_message.error {
+	font-size: 15px;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	display: none;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	color: rgb(215,50,50);
+}
+#ajx_opncloseform .error_message{
+	font-size: 14px;
+	font-weight: 400;
+	padding: 8px 10px;
+	letter-spacing: 0.5px;
+	text-transform: capitalize;
+	color: red;
+	margin-left: 10px;
+}
+#ajx_opncloseform .error_message.active{
+	border: 1px solid red;
+}
+tr.time_zone_wrapper span.current_timezone {
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+}
+#ajx_opncloseform td.not-allowed-wrapper {
+    cursor: not-allowed;
+}
